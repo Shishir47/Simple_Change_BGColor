@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var button: FloatingActionButton
     private val colors= arrayOf(Color.RED, Color.BLACK, Color.YELLOW, Color.CYAN, Color.MAGENTA, Color.GREEN)
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         view= findViewById(R.id.view)
